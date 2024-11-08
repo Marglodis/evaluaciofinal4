@@ -80,7 +80,7 @@ public class Menu extends MenuTemplate{
                 break;
             default:
                 System.out.println("Opción inválida");
-                return; // Terminamos el método si la opción es inválida
+                return;
         }
 
         // Crear la materia con el valor correspondiente de MateriaEnum
@@ -100,7 +100,7 @@ public class Menu extends MenuTemplate{
 
         if (materias.isEmpty()) {
             System.out.println("El alumno no tiene materias agregadas.");
-            return;  // Terminar el método si el alumno no tiene materias
+            return;
         }
 
         // Mostrar las materias disponibles para el alumno
